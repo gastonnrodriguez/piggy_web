@@ -1,11 +1,39 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif !important;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.theme{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%) ;
 }
 
 .navbar-custom{
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-    height: 74px;
+    height: 80px;
+    border-bottom: 1px solid gray;    
+    margin-bottom: 0px;
+}
+#navbar.scrolled{
+    color: black !important;
+    transition: background-color 300ms linear;
 }
 
+#navbar.navbar-brand{
+    color: black !important;
+}
 
+#navbar.navbar-nav{
+    color: black !important;
+}
+
+.jumbotron-white{
+    color: white;
+}
+.jumbotron-white h1{
+    font-weight: 700;
+}
+
+#footer{
+    background: linear-gradient(180deg, #daae51 0%, #d53369 100%) ;
+}
