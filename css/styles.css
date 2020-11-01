@@ -9,6 +9,13 @@ body{
     background: linear-gradient(90deg, #d53369 0%, #daae51 100%) ;
 }
 
+.logo{
+    filter: invert(99%) sepia(0%) saturate(7498%) hue-rotate(172deg) brightness(112%) contrast(101%);
+    height: 70px;
+}
+.logo-scrolled{
+    height: 70px;
+}
 .navbar-custom{
     height: 80px;
     border-bottom: 1px solid gray;    
@@ -34,6 +41,11 @@ body{
     font-weight: 700;
 }
 
+.jumbotron-transparent{
+    background-color:transparent !important;
+   
+}
 #footer{
     background: linear-gradient(180deg, #daae51 0%, #d53369 100%) ;
+    text-align: center;
 }
