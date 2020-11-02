@@ -25,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
         </button> <a class="navbar-brand" href="#">
             <img id="logo" class="logo" src="images/logo.svg" alt="logo">
-            <span class="display-5">Piggy</span></a>
+            <span class="display-5 brand-text">Piggy</span></a>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="navbar-nav ml-md-auto">
                 <li class="nav-item active">
@@ -35,34 +35,35 @@
                     <a class="nav-link" href="#">Contacto</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Ingresar</a>
-                </li>                
+                    <a class="nav-link" href="login.html">Ingresar</a>
+                </li>
             </ul>
         </div>
         <hr>
     </nav>
     <main>
         <div class="jumbotron jumbotron-fluid theme jumbotron-white">
-            <div class="container">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row main-jumbotron">
                     <div class="col-md-6">
                         <p>Tu app de finanzas personales</p>
                         <h1 class="display-4">Ahorra dinero con Piggy!</h1>
                         <p class="lead">"Lo que no se mide no se puede mejorar." te ayudamos con las finanzas personales
                         </p>
-                        <button type="button" class="btn btn-light">Suscribite</button>
+                        <button type="button" class="btn btn-light btn-lg">Suscribite</button>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/finance_analytics__monochromatic.svg" alt="">
+                        <img src="images/online_report_monochromatic.svg">
                     </div>
                 </div>
+
             </div>
         </div>
     </main>
     <section class="features">
         <div class="jumbotron jumbotron-fluid  jumbotron-transparent">
-            <div class="container">
-                <div class="row">                    
+            <div class="container-fluid">
+                <div class="row">
                     <div class="col-md-6">
                         <img src="images/money_motivation__monochromatic.svg" alt="">
                     </div>
@@ -78,7 +79,7 @@
         </div>
 
         <div class="jumbotron jumbotron-fluid  jumbotron-transparent">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
                         <p>Tu app de finanzas personales</p>
@@ -95,8 +96,8 @@
         </div>
 
         <div class="jumbotron jumbotron-fluid jumbotron-transparent">
-            <div class="container">
-                <div class="row">                    
+            <div class="container-fluid">
+                <div class="row">
                     <div class="col-md-6">
                         <img src="images/finance_app_monochromatic.svg" alt="">
                     </div>
@@ -113,28 +114,24 @@
 
     </section>
 
-    
-    <footer id="footer">
-        
-        <div id="wave" class="theme">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 193" style="fill: white; margin-top: -1px">
-              <path d="M1175 131.2c0 0-81-89.4-224.3-103.4S713 72 665 97c-86 46-148 63-271 7C221.7 25.5 56 104.5-4 197.4 -4 58.7-3.3 0.3-3.3 0.3L1175 0V131.2z"/>
-            </svg>
-         </div>
-         <div class="theme" style="background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%); height: 100px">
-            <div class="row">
-                <div class="col-md-6">Seguinos!</div>    
-                <div class="col-md-6">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-    
 
+    <footer id="footer">
+
+        <div id="wave" class="theme-inverted">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 193">
+                <path
+                    d="M1175 131.2c0 0-81-89.4-224.3-103.4S713 72 665 97c-86 46-148 63-271 7C221.7 25.5 56 104.5-4 197.4 -4 58.7-3.3 0.3-3.3 0.3L1175 0V131.2z" />
+            </svg>
+        </div>
+        <div class="theme-inverted">
+            <div class="col-md-12"><span>Seguinos!</span>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><img class="social" src="images/facebook.svg" alt=""></li>
+                    <li class="list-inline-item"><img class="social" src="images/instagram.svg" alt=""></li>
+                    <li class="list-inline-item"><img class="social" src="images/twitter.svg" alt=""></li>
+                </ul>
             </div>
-         </div>
+        </div>
 
     </footer>
 

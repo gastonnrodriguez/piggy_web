@@ -1,51 +1,122 @@
-
-body{
-    font-family: 'Source Sans Pro', sans-serif !important;
-    padding-top: 80px;
-    margin: 0;
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+  padding-top: 80px;
+  margin: 0;
 }
 
-.theme{
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%) ;
+/*Tema del gradiente*/
+.theme {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
-.logo{
-    filter: invert(99%) sepia(0%) saturate(7498%) hue-rotate(172deg) brightness(112%) contrast(101%);
-    height: 70px;
-}
-.logo-scrolled{
-    height: 70px;
-}
-.navbar-custom{
-    height: 80px;
-    border-bottom: 1px solid gray;    
-    margin-bottom: 0px;
-}
-#navbar.scrolled{
-    color: black !important;
-    transition: background-color 300ms linear;
+.theme-inverted {
+  background: linear-gradient(90deg, #daae51 0%, #d53369 100%);
 }
 
-#navbar.navbar-brand{
-    color: black !important;
+/*Navbar, logo y efecto con scroll*/
+.logo {
+  filter: invert(99%) sepia(0%) saturate(7498%) hue-rotate(172deg)
+    brightness(112%) contrast(101%);
+  height: 70px;
+}
+.logo-scrolled {
+  height: 70px;
 }
 
-#navbar.navbar-nav{
-    color: black !important;
+.brand-text {
+  font-weight: 900;
+  font-size: x-large;
 }
 
-.jumbotron-white{
-    color: white;
+.navbar-custom {
+  margin-bottom: 0px;
 }
-.jumbotron-white h1{
-    font-weight: 700;
+#navbar.scrolled {
+  background-color: white;
+  color: black !important;
+  transition: background-color 300ms linear;
+  border-bottom: 1px solid gray;
 }
 
-.jumbotron-transparent{
-    background-color:transparent !important;
-   
+#navbar.scrolled .nav-link {
+  color: black !important;
+  transition: background-color 300ms linear;
+  text-decoration: none;
 }
-#footer{
-    background: linear-gradient(180deg, #daae51 0%, #d53369 100%) ;
-    text-align: center;
+
+#navbar.scrolled,
+#navbar.scrolled .brand-text {
+  color: black !important;
 }
+
+#navbar.navbar-nav {
+  color: black !important;
+}
+
+/*Main*/
+.main-jumbotron {
+  padding: 0px 80px;
+}
+
+.jumbotron-white {
+  color: white;
+}
+.jumbotron-white h1 {
+  font-weight: 700;
+}
+
+.jumbotron-transparent {
+  background-color: transparent !important;
+
+  /*Footer*/
+}
+#footer {
+  background: linear-gradient(180deg, #daae51 0%, #d53369 100%);
+  text-align: center;
+  width: 100%;
+}
+
+.social {
+  height: 25px;
+  filter: invert(99%) sepia(0%) saturate(7498%) hue-rotate(172deg)
+    brightness(112%) contrast(101%);
+}
+
+#wave {
+  fill: white;
+  margin-top: -1px;
+}
+/*Footer*/
+
+/*Login*/
+
+.jumbotron-login {
+  background-color: white !important;
+}
+
+.jumbotron-login .form-signin {
+  padding: 0rem 6rem;
+}
+
+.form-signin img {
+  height: 90px;
+}
+
+.form-signin .btn a {
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-login{
+    background-color: #d53369;
+}
+.btn-signin{
+    background-color: #daae51;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*Login*/
