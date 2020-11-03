@@ -4,7 +4,15 @@ body {
   margin: 0;
 }
 
-/*Tema del gradiente*/
+/*Tema*/
+
+.color1 {
+  background-color: #d53369;
+}
+
+.color2 {
+  background-color: #daae51;
+}
 .theme {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
@@ -90,6 +98,10 @@ body {
 
 /*Login*/
 
+body .jumbotron-login {
+  padding-top: 0px;
+}
+
 .jumbotron-login {
   background-color: white !important;
 }
@@ -108,15 +120,59 @@ body {
   text-decoration: none;
 }
 
-.btn-login{
-    background-color: #d53369;
+.btn-signin {
+  color: black;
+  text-decoration: none;
 }
-.btn-signin{
-    background-color: #daae51;
-    color: black;
-    text-decoration: none;
-}
-
-
 
 /*Login*/
+/*Blog: Aqui es donde uso grid*/
+
+.blog {
+  padding-top: 40px;
+}
+.btn .color1 {
+  color: white;
+}
+
+.container-blog {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  padding-top: 80px;
+}
+@media (min-width: 600px) {
+  .container-blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .container-blog {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.blog-card {
+  padding: 1rem;
+  height: 100%;
+  width: 80%;
+}
+
+.blog-card img {
+  width: 100%;
+}
+
+.blog-card .card-content {
+  display: flex;
+  flex-direction: column;  
+  padding-top: 10px;
+  width: 80%;
+}
+
+.blog-card .card-content button {
+  color: white;
+  
+}
+
+/*Blog*/
