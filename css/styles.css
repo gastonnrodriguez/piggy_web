@@ -360,4 +360,7 @@ a.article:hover {
   width: 100% !important;
 }
 
+.analytics .row{
+    padding-top: 25px;
+}
 /*Dashboard*/
