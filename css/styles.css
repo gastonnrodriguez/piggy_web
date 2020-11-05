@@ -52,6 +52,14 @@ body {
   text-decoration: none;
 }
 
+#navbar.scrolled .nav-link:hover {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%) !important;
+  color: white !important;
+  transition: background-color 300ms linear;
+  text-decoration: none;
+  border-radius: 50rem !important;
+}
+
 #navbar.scrolled,
 #navbar.scrolled .brand-text {
   color: black !important;
@@ -59,6 +67,23 @@ body {
 
 #navbar.navbar-nav {
   color: black !important;
+}
+
+.selected{
+  color: black !important;
+}
+
+.nav-link .rounded-pill{
+  color: black !important;
+  pointer-events: none;
+  cursor: default;
+}
+
+.nav-link:hover {
+  color: black !important;
+  border-radius: 50rem !important;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
 /*Main*/
@@ -208,7 +233,7 @@ a:focus {
   margin: 40px 0;
 }
 
-#logo {
+.logo-dashboard {
   height: 80px;
   filter: invert(99%) sepia(0%) saturate(7498%) hue-rotate(172deg)
     brightness(112%) contrast(101%);
@@ -240,6 +265,7 @@ a:focus {
 #sidebar .sidebar-header {
   padding: 20px;
   background: #b12453;
+  text-align: center;
 }
 
 #sidebar ul.components {
@@ -360,7 +386,7 @@ a.article:hover {
   width: 100% !important;
 }
 
-.analytics .row{
-    padding-top: 25px;
+.analytics .row {
+  padding-top: 25px;
 }
 /*Dashboard*/
