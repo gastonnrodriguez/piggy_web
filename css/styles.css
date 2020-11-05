@@ -390,3 +390,15 @@ a.article:hover {
   padding-top: 25px;
 }
 /*Dashboard*/
+
+
+/*media queries*/
+@media screen and (max-width: 960px) {
+  .jumbotron-login .form-signin {
+    padding: 0px;
+  }
+
+  
+
+
+}
